@@ -22,26 +22,7 @@ export default function GameHousePage() {
             </div>
             <span className="text-xl font-bold">GameHouse</span>
           </div>
-          <nav className="hidden md:flex items-center space-x-8">
-            <button onClick={() => setShowForm(true)} className="text-gray-300 hover:text-white transition-colors">
-              Analytics
-            </button>
-            <button onClick={() => setShowForm(true)} className="text-gray-300 hover:text-white transition-colors">
-              Services
-            </button>
-            <button onClick={() => setShowForm(true)} className="text-gray-300 hover:text-white transition-colors">
-              Insights
-            </button>
-            <button onClick={() => setShowForm(true)} className="text-gray-300 hover:text-white transition-colors">
-              Contact
-            </button>
-          </nav>
-          <Button
-            onClick={() => setShowForm(true)}
-            className="bg-amber-600 hover:bg-amber-700 text-black font-semibold"
-          >
-            Get Started
-          </Button>
+          {/* ...existing code... */}
         </div>
       </header>
 
